@@ -1,0 +1,1086 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(202, 105, 202);
+
+}
+
+.nav {
+
+    
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(202, 105, 202);
+    display: flex;
+}
+
+.cname h1 {
+    display: inline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.search input {
+    display: inline;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    text-align: start;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.pages ul {
+    display: flex;
+    list-style: none;
+}
+
+.pages ul li {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.pages ul li a:hover {
+    color: rgb(94, 34, 94);
+}
+
+.pages ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+
+}
+
+.icons ul {
+    display: flex;
+    list-style: none;
+}
+
+.icons ul li {
+    margin-left: 10px;
+}
+
+.icons ul li i {
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+
+    height: 50px;
+}
+
+.icons ul li i:hover {
+    cursor: pointer;
+    color: rgb(94, 34, 94);
+}
+
+.cname {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+}
+
+.img img {
+    height: 500px;
+    width: 600px;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+.intro {
+    position: relative;
+    right: 40px;
+}
+
+.intro h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.intro h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.intro button {
+    background-color: rgb(227, 124, 65);
+    height: 50px;
+    width: 120px;
+    border: 2px solid rgb(142, 55, 12);
+    border-radius: 50px;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.intro button:hover {
+    cursor: pointer;
+    background-color: rgb(94, 34, 94);
+    border: 3px solid rgb(202, 105, 202);
+
+}
+
+.service {
+    display: flex;
+    
+    width: 100%;
+    background-color: rgb(245, 238, 238);
+    padding-top: 40px;
+}
+
+.deliver {
+    display: flex;
+}
+
+.ic {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.ic i {
+    font-size: 30px;
+    color: plum;
+}
+
+.details h2 {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details p {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.p1 {
+    padding-top: 10px;
+}
+
+.ic2 {
+    padding-left: 50px;
+}
+
+.electronics {
+    background-color: white;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.headings {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headings h4 {
+    padding-top: 50px;
+}
+
+.headings h1 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.headings p {
+    padding-top: 10px;
+    color: rgb(142, 137, 137);
+}
+
+.products {
+    display: flex;
+}
+
+.lap {
+    height: 200px;
+    width: 200px;
+}
+
+.lap1 {
+    height: 200px;
+    width: 250px;
+}
+
+.laptop p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(161, 155, 155);
+
+    padding-top: 3px;
+}
+
+.laptop {
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.laptop a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+    padding-left: 75px;
+    color: black;
+    font-weight: 400;
+}
+
+.pd1 {
+    padding-left: 90px;
+
+}
+
+.covers {
+
+    width: 100%;
+    background-color: rgb(245, 238, 238);
+}
+
+.covers h4 {
+    padding-top: 50px;
+}
+
+.covers {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.covers h1 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.cards {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    padding-top: 40px;
+    
+
+
+}
+
+.lgcard {
+    background-color: rgb(253, 250, 250);
+    height: 450px;
+    width: 650px;
+    box-shadow: 10px 10px 60px grey;
+    margin-left: 30px;
+}
+
+.lgcard h3 {
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.lgcard p {
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgb(142, 134, 134);
+}
+
+.lgcard button {
+    position: relative;
+    top: 20px;
+
+
+    right: 95px;
+    height: 40px;
+    width: 150px;
+    padding-left: 0px;
+
+    background-color: white;
+    color: rgb(157, 104, 157);
+    border: 1px solid plum;
+    border-radius: 20px;
+
+}
+
+.lgcard button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: plum;
+}
+
+.lgcard img {
+    padding-top: 70px;
+    height: 230px;
+    width: 100%;
+
+}
+
+.speaker {
+
+    width: 100%;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.nav2 {
+    display: flex;
+}
+
+.head {
+    width: 40%;
+}
+
+.head h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 135px;
+    font-size: 40px;
+}
+
+.cat ul {
+
+    display: flex;
+    list-style: none;
+    padding-left: 500px;
+    padding-top: 50px;
+
+}
+
+.cat ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cat ul li a:hover {
+    color: rgb(49, 44, 44);
+
+}
+
+.cat {
+    width: 100%;
+}
+
+.scard {
+    display: flex;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 89%;
+
+}
+
+.headset {
+    background-color: rgb(253, 250, 250);
+
+    width: 245px;
+    box-shadow: 8px 7px 20px grey;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+.headset img {
+    padding-top: 10px;
+    position: relative;
+    right: 40px;
+    height: 230px;
+    width: 100%;
+
+}
+
+.headset h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(42, 39, 39);
+}
+
+.headset p {
+    text-align: start;
+    padding-left: 0px;
+    padding-top: 10px;
+    color: rgb(109, 102, 102);
+}
+
+.headset ul {
+    display: flex;
+    list-style: none;
+}
+
+.headset ul li i {
+    font-size: 30px;
+    color: plum;
+    margin-top: 1px;
+    padding-left: 120px;
+
+    height: 50px;
+}
+
+.headset ul li i:hover {
+    cursor: pointer;
+    color: rgb(157, 104, 157);
+}
+
+.forward i {
+    font-size: 45px;
+    color: plum;
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+
+.forward i:hover {
+    cursor: pointer;
+    color: rgb(157, 104, 157);
+}
+
+#i1 {
+    padding-left: 633px;
+}
+
+.beats {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+    background-color: rgb(245, 238, 238);
+}
+
+.nav3 {
+    margin: 0 auto;
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.md h1 {
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.md2 h2 {
+    font-weight: 800;
+
+}
+
+.discount {
+    display: flex;
+    margin: 0 auto;
+    width: 89%;
+    padding-top: 50px;
+
+}
+
+.crd {
+    height: 280px;
+    width: 390px;
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: 7px 8px 20px gray;
+    position: relative;
+    left: 30px;
+
+}
+
+.crd h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.cat2 ul {
+
+    display: flex;
+    list-style: none;
+
+    padding-top: 20px;
+    flex-direction: column;
+
+
+}
+
+.cat2 ul li {
+    padding-top: 20px;
+}
+
+.cat2 ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cat2 ul li a:hover {
+    color: rgb(49, 44, 44);
+
+}
+
+.cat2 {
+    width: 100%;
+}
+
+.hp img {
+    height: 640px;
+    width: 800px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+
+}
+
+.hp button {
+    background-color: rgb(157, 104, 157);
+    border: 2px solid rgb(157, 104, 157);
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 40px;
+    position: relative;
+    bottom: 690px;
+    left: 560px;
+    font-weight: 800;
+}
+
+.det {
+    
+    width: 550px;
+    background-color: rgb(245, 238, 238);
+    position: relative;
+
+}
+
+.h0 {
+    padding-top: 10px;
+}
+
+.dis {
+    padding-top: 15px;
+    display: flex;
+}
+
+.dis p {
+    font-size: 13px;
+    padding-left: 10px;
+    color: rgb(83, 80, 80);
+}
+
+.det p {
+    padding-top: 10px;
+    color: rgb(108, 104, 104);
+}
+
+.sold {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.bar {
+    margin-top: 5px;
+    height: 8px;
+    width: 100%;
+    background-color: rgb(216, 212, 212);
+    border: 2px solid rgb(216, 212, 212);
+    border-radius: 5px;
+}
+
+.bar2 {
+    height: 8px;
+    width: 30%;
+    background-color: rgb(157, 104, 157);
+    border: 2px solid rgb(157, 104, 157);
+    border-radius: 5px;
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+}
+
+.det button {
+    margin-top: 30px;
+    height: 45px;
+    width: 160px;
+    background-color: rgb(245, 238, 238);
+    border: 3px solid rgb(157, 104, 157);
+    border-radius: 30px;
+    color: rgb(157, 104, 157);
+    font-weight: 700;
+}
+
+.det button:hover {
+    cursor: pointer;
+    border: 3px solid rgb(157, 104, 157);
+    background-color: rgb(157, 104, 157);
+    color: white;
+}
+
+.mail {
+    
+    width: 100%;
+    display: flex;
+    background-color: rgb(66, 21, 108);
+}
+
+.mail2 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0 auto;
+    width: 87%;
+    justify-content: space-between;
+}
+
+.dq h4 {
+    color: white;
+    padding-top: 80px;
+}
+
+.dq h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.dp {
+    margin-top: 20px;
+}
+
+.dq p {
+    color: rgb(190, 183, 183);
+    padding-top: 5px;
+}
+
+.frm input {
+    height: 35px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 3px;
+    position: relative;
+    top: 130px;
+    right: 200px;
+    padding-left: 10px;
+}
+
+.frm button {
+    height: 40px;
+    width: 130px;
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+    border: 2px solid orange;
+    border-radius: 30px;
+    position: relative;
+    top: 130px;
+    right: 180px;
+}
+
+.frm button:hover {
+    cursor: pointer;
+    background-color: rgb(77, 20, 131);
+    border: 2px solid orange;
+}
+
+.end {
+    background-color: white;
+
+
+}
+
+.copy {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 89%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.rights {
+    padding-top: 20px;
+
+}
+
+.rights p {
+    color: rgb(169, 162, 162);
+}
+
+.icn {
+    display: flex;
+}
+
+.icn i {
+    color: rgb(66, 21, 108);
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 20px;
+    position: relative;
+    right: 100px;
+}
+
+.pay i {
+    color: rgb(66, 21, 108);
+    font-size: 25px;
+
+    padding-top: 20px;
+
+}
+
+.copy i:hover {
+    cursor: pointer;
+}
+
+/* media qurries */
+@media (min-width: 1024px) and (max-width:1439px) {
+    body{
+        background-color: aqua;
+    }
+    .main {
+        width: 100%;
+        
+    }
+    .lap1 {
+      padding-left: 70px;
+    }
+    .laptop a{
+        padding-left: 50px;
+    }
+    .lap{
+        height: 100px;
+        width: 100px;
+    }
+    .icons ul li {
+        margin-left: 0px;
+    }
+  
+    .nav{
+        width: 100%;
+    }
+    .cat ul {
+        padding-left: 300px;
+    }
+    .hp img{
+        height: 400px;
+        width: 500px;
+        position: relative;
+        bottom: 50px;
+    }
+    .scard{
+        width: 100%;
+    }
+    .headset{
+        padding-left: 50px;
+        margin-left: 14px;
+        width: 190px;
+        
+    }
+    .service {
+        display: flex;
+        height: 200px;
+        width: 100%;
+        background-color: rgb(245, 238, 238);
+        padding-top: 30px;
+    }
+    .details h2 {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .ic {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .laptop p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(161, 155, 155);
+        padding-top: 3px;
+        margin-left: 70px;
+    }
+    .pn{
+        position: relative;
+        right: 50px;
+    }
+    .sa{
+        position: relative;
+        right: 20px;
+    }
+    .sa2{
+        position: relative;
+        left: 50px;
+    }
+    .lgcard button{
+        position: relative;
+        right:45px;
+    }
+    #i1{
+        padding-left: 465px;
+    }
+    .hp button{
+        position: relative;
+        bottom: 400px;
+        left: 370px;
+    }
+    .frm input{
+        position: relative;
+        right: 0px;
+    }
+    .frm button{
+        position: relative;
+        right: 0px;
+    }
+
+
+}
+@media (min-width: 320px) and (max-width:425px){
+    body{
+        width: 100%;
+        background-color: aqua;
+    }
+    .nav{
+
+        flex-direction: column;
+    }
+    .search input{
+        width: 140px;
+        padding-left: 10px;
+        margin-left: 40px;
+    }
+    .pages ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pages ul li{
+        margin-top: 15px;
+    }
+    .icons ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons ul li i{
+        margin-top: 15px;
+
+    }
+    .img img{
+
+        height: 200px;
+        width: 200px;
+        padding-left: 70px;
+    }
+    .laptop{
+        padding-left: 0px;
+    }
+    .products{
+        flex-direction: column;
+    }
+    .service{
+        flex-direction: column;
+        
+    }
+    .scard{
+        flex-direction: column; 
+    }
+    .cards{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lgcard{
+        box-shadow: 0px 0px 0px;
+        margin-left: 0px;
+        width: 100%;
+        margin: 10px;
+    }
+    .lgcard h3{
+        text-align: center;
+    }
+    .lgcard p{
+        text-align: center;
+    }
+    .lgcard button{
+        position: relative;
+        right: 0px;
+    }
+    .cat ul {
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+        padding-top: 10px;
+        
+    }
+    .cat ul li {
+        margin-top: 10px;
+    }
+    .nav2{
+        flex-direction: column;
+    }
+    .headtset{
+        margin: 10px;
+    }
+    .scard{
+        width: 100%;
+    }
+    .nav3{
+        flex-direction: column;
+    }
+    .discount{
+        flex-direction: column;
+        width: 100%;
+    }
+    .crd{
+        height: 300px;
+        width: 100%;
+        left: 0px;
+        text-align: center;
+    }
+    .det{
+        padding-top: 0px;
+        width: 98%;
+        text-align: center;
+    }
+    .dis{
+       align-items: center;
+       justify-content: center;
+    }
+ 
+    .hp img{
+        height: 300px;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        top: 40px;
+    }
+    .hp button{
+        left: 195px;
+        bottom: 245px;
+    }
+    .mail{
+        flex-direction: column;
+    }
+    .mail2{
+        flex-direction: column;
+    }
+ 
+    .image{
+        flex-direction: column;
+    }
+    .icn{
+        flex-direction: column;
+    }
+    .intro{
+        align-items: center;
+        right: 0px;
+        text-align: center;
+
+    }
+    .intro h4{
+        margin-top: 20px;
+    }
+    .intro button{
+        margin-bottom: 10px;
+    }
+
+    .forward{
+        display: none;
+    }
+    .frm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .frm input{
+        top: 0px;
+        right: 0px;
+        left: 50px;
+        width: 160px;
+        
+        margin-top: 20px;
+        
+    }
+    .ic{
+        padding-left: 50px;
+    }
+
+    .frm button{
+        top: 0px;
+        right: 0px;
+        left: 70px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .copy{
+        flex-direction: column;
+        text-align: center;
+    }
+    .icn{
+        display: none;
+
+    }
+    .pay{
+        display: none;
+    }
+
+    /* alignment */
+
+    .cname{
+        padding-left: 80px;
+    }
+    .lap1{
+        height: 150px;
+        padding-left: 40px;
+    }
+    .laptop a{
+        padding-left: 135px;
+    }
+    .lap{
+        padding-left: 60px;
+    }
+    .head h1{
+        font-size: 30px;
+        padding-left: 130px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .headset{
+        margin-top: 10px;
+    }
+    .nav3{
+        text-align: center;
+    }
+    .md2{
+        margin-top: 15px;
+    }
+    .det button{
+        margin-bottom: 10px;
+    }
+    .dq{
+        text-align: center;
+    }
+}
+
