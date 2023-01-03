@@ -281,10 +281,10 @@ form {
 
 .cards {
     margin: 0 auto;
-    width: 90%;
+    width: 85%;
     display: flex;
     padding-top: 40px;
-    
+    padding-bottom: 40px;
 
 
 }
@@ -294,7 +294,10 @@ form {
     height: 450px;
     width: 650px;
     box-shadow: 10px 10px 60px grey;
-    margin-left: 30px;
+    
+}
+.lg2{
+    margin-left: 20px;
 }
 
 .lgcard h3 {
@@ -675,6 +678,10 @@ form {
 .dq p {
     color: rgb(190, 183, 183);
     padding-top: 5px;
+    
+}
+.dp2{
+    padding-bottom: 60px;
 }
 
 .frm input {
@@ -758,22 +765,37 @@ form {
 
 /* media qurries */
 @media (min-width: 1024px) and (max-width:1439px) {
-    body{
-        background-color: aqua;
-    }
+ 
     .main {
         width: 100%;
         
     }
+    .laptop{
+        padding-left: 0px;
+    }
     .lap1 {
       padding-left: 70px;
+      height: 120px;
+      width: 190px;
     }
     .laptop a{
-        padding-left: 50px;
+        padding-left: 90px;
     }
     .lap{
-        height: 100px;
-        width: 100px;
+        padding-left: 50px;
+        height: 120px;
+        width: 140px;
+    }
+    .pd1 a{
+        padding-left: 120px;
+    }
+    .pd1 p{
+        padding-left: 70px;
+
+    }
+    .cards{
+        padding-top: 40px;
+        padding-bottom: 50px;
     }
     .icons ul li {
         margin-left: 0px;
